@@ -3,7 +3,7 @@ version: "3.7"
 services:
   docker-env-research:
     container_name: docker-env-research
-    image: docker-env-research:1.0.0
+    image: docker-env-research:latest
     ports:
       - 5173:5173
     environment:
