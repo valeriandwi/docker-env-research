@@ -2,7 +2,7 @@ name: Docker Build & Publish when Release
 
 on:
   release:
-    types: [published]
+    types: [created]
 
 jobs:
   build:
